@@ -124,7 +124,7 @@ yarn build
 
 The marketing website is designed to work alongside the main Pizoo app. All "Sign In" and "Get Started" buttons open the main app at:
 ```
-https://pizoo-debug.preview.emergentagent.com
+https://pizoo-landing.preview.emergentagent.com
 ```
 
 Update this URL in the following components when deploying to production:

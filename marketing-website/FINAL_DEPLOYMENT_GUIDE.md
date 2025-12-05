@@ -134,7 +134,7 @@ https://app.netlify.com
 ### 3. **تحديث روابط التطبيق**
 في 3 ملفات، استبدل:
 ```
-https://pizoo-debug.preview.emergentagent.com
+https://pizoo-landing.preview.emergentagent.com
 ```
 بـ:
 ```

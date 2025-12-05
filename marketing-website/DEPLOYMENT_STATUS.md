@@ -103,7 +103,7 @@ G-YOUR_GOOGLE_ANALYTICS_ID
 - `src/components/WhyPizoo.js`
 - `src/components/Pricing.js`
 
-Von: `https://pizoo-debug.preview.emergentagent.com`
+Von: `https://pizoo-landing.preview.emergentagent.com`
 Zu: `https://app.pizoo.ch`
 
 ---

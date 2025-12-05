@@ -99,7 +99,7 @@
 
 ### قبل الإصلاح ❌
 ```bash
-REACT_APP_BACKEND_URL=https://pizoo-debug.preview.emergentagent.com
+REACT_APP_BACKEND_URL=https://pizoo-landing.preview.emergentagent.com
 ```
 
 ### بعد الإصلاح ✅

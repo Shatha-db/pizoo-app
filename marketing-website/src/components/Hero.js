@@ -6,7 +6,7 @@ const Hero = () => {
   const { t } = useTranslation();
 
   const openApp = () => {
-    window.open('https://pizoo-debug.preview.emergentagent.com', '_blank');
+    window.open('https://pizoo-landing.preview.emergentagent.com', '_blank');
   };
 
   return (

@@ -46,7 +46,7 @@ const WhyPizoo = () => {
               "{t('whyPizoo.mission')}"
             </p>
             <button
-              onClick={() => window.open('https://pizoo-debug.preview.emergentagent.com', '_blank')}
+              onClick={() => window.open('https://pizoo-landing.preview.emergentagent.com', '_blank')}
               className="bg-gradient-to-r from-primary-500 to-secondary-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-2xl transition transform hover:scale-105"
             >
               {t('whyPizoo.cta')}

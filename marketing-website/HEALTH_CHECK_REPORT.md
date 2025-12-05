@@ -75,7 +75,7 @@ marketing-website/
 **Fix:**
 ```javascript
 // Von:
-https://pizoo-debug.preview.emergentagent.com
+https://pizoo-landing.preview.emergentagent.com
 
 // Zu:
 https://app.pizoo.ch

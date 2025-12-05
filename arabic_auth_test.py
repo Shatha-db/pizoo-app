@@ -11,7 +11,7 @@ import json
 from datetime import datetime
 
 # Test configuration
-BACKEND_URL = os.getenv('REACT_APP_BACKEND_URL', 'https://pizoo-debug.preview.emergentagent.com')
+BACKEND_URL = os.getenv('REACT_APP_BACKEND_URL', 'https://pizoo-landing.preview.emergentagent.com')
 API_BASE = f"{BACKEND_URL}/api"
 
 # Test data as requested in Arabic review

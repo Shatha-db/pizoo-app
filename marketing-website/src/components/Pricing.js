@@ -53,7 +53,7 @@ const Pricing = () => {
                 </ul>
                 
                 <button
-                  onClick={() => window.open('https://pizoo-debug.preview.emergentagent.com', '_blank')}
+                  onClick={() => window.open('https://pizoo-landing.preview.emergentagent.com', '_blank')}
                   className={`w-full py-4 rounded-full font-semibold transition ${
                     plan.popular
                       ? 'bg-gradient-to-r from-primary-500 to-secondary-500 text-white hover:shadow-xl transform hover:scale-105'
