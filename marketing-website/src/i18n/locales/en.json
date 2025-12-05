@@ -111,6 +111,65 @@
     "readMore": "Read Article",
     "allArticles": "View All Articles"
   },
+  "privacy": {
+    "title": "Your Safety, Our Priority",
+    "subtitle": "We take your security seriously. Here's how we protect you:",
+    "items": [
+      {
+        "title": "End-to-End Encryption",
+        "description": "All your messages and photos are encrypted. Only you and your match can see them."
+      },
+      {
+        "title": "Verified Profiles",
+        "description": "We use AI-powered photo verification to ensure every profile is real and authentic."
+      },
+      {
+        "title": "No AI Surveillance",
+        "description": "Our AI helps you find matches, but never reads your private conversations."
+      },
+      {
+        "title": "Anti-Fake System",
+        "description": "Advanced algorithms and manual review to prevent fake accounts and scammers."
+      },
+      {
+        "title": "GDPR Compliant",
+        "description": "Your data is protected according to Swiss and European privacy laws."
+      },
+      {
+        "title": "24/7 Moderation",
+        "description": "Our team monitors for inappropriate behavior and responds quickly to reports."
+      }
+    ],
+    "cta": "Read Full Privacy Policy"
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Choose the plan that works for you",
+    "plans": [
+      {
+        "name": "7 Days",
+        "price": "3",
+        "currency": "CHF",
+        "features": ["Unlimited matches", "Video calls", "See who likes you", "Priority support"]
+      },
+      {
+        "name": "1 Month",
+        "price": "9",
+        "currency": "CHF",
+        "popular": true,
+        "features": ["Everything in 7 Days", "Boost your profile", "Advanced filters", "Read receipts"]
+      },
+      {
+        "name": "3 Months",
+        "price": "19",
+        "currency": "CHF",
+        "savings": "Save 30%",
+        "features": ["Everything in 1 Month", "Profile verification badge", "Rewind unlimited", "Premium badge"]
+      }
+    ],
+    "cta": "Get Started",
+    "moneyBack": "7-day money-back guarantee"
+  },
   "download": {
     "title": "Download Pizoo Today",
     "subtitle": "Available on iOS and Android",
