@@ -15,6 +15,12 @@ import Download from './components/Download';
 import Footer from './components/Footer';
 import BlogPage from './pages/BlogPage';
 import AdminBlog from './pages/AdminBlog';
+import AboutPage from './pages/AboutPage';
+import TeamPage from './pages/TeamPage';
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
+import TermsPage from './pages/TermsPage';
+import ContactPage from './pages/ContactPage';
+import FAQPage from './pages/FAQPage';
 
 function HomePage() {
   return (
