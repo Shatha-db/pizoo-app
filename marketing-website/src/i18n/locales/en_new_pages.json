@@ -1,0 +1,356 @@
+{
+  "about": {
+    "hero": {
+      "title": "About Pizoo",
+      "subtitle": "We're on a mission to help people find meaningful connections in a digital world"
+    },
+    "story": {
+      "title": "Our Story",
+      "paragraph1": "Pizoo was born from a simple belief: everyone deserves to find love. In a world where dating apps felt more like a chore than an adventure, we wanted to create something different.",
+      "paragraph2": "We combined cutting-edge AI technology with genuine human understanding to build a platform that actually works. Today, millions of people trust Pizoo to help them find their perfect match."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To create a world where finding love is accessible, enjoyable, and authentic for everyone, regardless of where they are or who they are."
+    },
+    "values": {
+      "title": "Our Values",
+      "authenticity": {
+        "title": "Authenticity",
+        "description": "We encourage real connections by promoting genuine profiles and honest interactions"
+      },
+      "community": {
+        "title": "Community",
+        "description": "We build a supportive environment where everyone feels welcome and respected"
+      },
+      "inclusivity": {
+        "title": "Inclusivity",
+        "description": "We celebrate diversity and ensure our platform works for people of all backgrounds"
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "We constantly improve our technology and service to provide the best experience"
+      }
+    },
+    "stats": {
+      "users": "10M+",
+      "usersLabel": "Active Users",
+      "countries": "150+",
+      "countriesLabel": "Countries",
+      "matches": "2M+",
+      "matchesLabel": "Successful Matches"
+    }
+  },
+  "team": {
+    "hero": {
+      "title": "Meet Our Team",
+      "subtitle": "The passionate people behind Pizoo"
+    },
+    "members": [
+      {
+        "name": "Sarah Johnson",
+        "role": "CEO & Co-Founder",
+        "bio": "Passionate about using technology to bring people together",
+        "linkedin": "#",
+        "twitter": "#",
+        "email": "sarah@pizoo.ch"
+      },
+      {
+        "name": "Michael Chen",
+        "role": "CTO & Co-Founder",
+        "bio": "AI expert focused on creating better matching algorithms",
+        "linkedin": "#",
+        "twitter": "#",
+        "email": "michael@pizoo.ch"
+      },
+      {
+        "name": "Emma Williams",
+        "role": "Head of Product",
+        "bio": "Designing experiences that make dating fun and meaningful",
+        "linkedin": "#",
+        "twitter": "#",
+        "email": "emma@pizoo.ch"
+      }
+    ],
+    "joinUs": {
+      "title": "Join Our Team",
+      "description": "We're always looking for talented people who share our vision",
+      "cta": "View Open Positions"
+    }
+  },
+  "privacy": {
+    "hero": {
+      "title": "Privacy Policy",
+      "subtitle": "Your privacy is our priority",
+      "lastUpdated": "Last Updated",
+      "date": "December 2025"
+    },
+    "sections": [
+      {
+        "title": "1. Information We Collect",
+        "content": [
+          "We collect information you provide directly to us when you create an account, update your profile, or use our services."
+        ],
+        "list": [
+          "Profile information (name, age, photos, bio)",
+          "Account credentials (email, password)",
+          "Communication data (messages, interactions)",
+          "Location data (with your permission)",
+          "Device information and usage data"
+        ]
+      },
+      {
+        "title": "2. How We Use Your Information",
+        "content": [
+          "We use the information we collect to provide, maintain, and improve our services."
+        ],
+        "list": [
+          "Create and manage your account",
+          "Provide matching and recommendation services",
+          "Send you notifications and updates",
+          "Improve our AI algorithms",
+          "Ensure safety and security",
+          "Comply with legal obligations"
+        ]
+      },
+      {
+        "title": "3. Information Sharing",
+        "content": [
+          "We do not sell your personal information. We may share your information only in the following circumstances:"
+        ],
+        "list": [
+          "With other users as part of our service",
+          "With service providers who assist us",
+          "When required by law",
+          "With your explicit consent"
+        ]
+      },
+      {
+        "title": "4. Your Rights",
+        "content": [
+          "You have the right to access, update, or delete your personal information at any time."
+        ]
+      },
+      {
+        "title": "5. Data Security",
+        "content": [
+          "We use industry-standard security measures to protect your data, including encryption and secure servers."
+        ]
+      }
+    ],
+    "contact": {
+      "title": "Questions About Privacy?",
+      "description": "If you have any questions about our privacy practices, please contact us at:"
+    }
+  },
+  "terms": {
+    "hero": {
+      "title": "Terms of Service",
+      "subtitle": "Please read these terms carefully",
+      "lastUpdated": "Last Updated",
+      "date": "December 2025"
+    },
+    "sections": [
+      {
+        "title": "1. Acceptance of Terms",
+        "content": [
+          "By accessing or using Pizoo, you agree to be bound by these Terms of Service and our Privacy Policy."
+        ]
+      },
+      {
+        "title": "2. Eligibility",
+        "content": [
+          "You must be at least 18 years old to use Pizoo. By creating an account, you represent that you meet this age requirement."
+        ]
+      },
+      {
+        "title": "3. Account Responsibilities",
+        "content": [
+          "You are responsible for maintaining the confidentiality of your account and for all activities under your account."
+        ],
+        "list": [
+          "Provide accurate and complete information",
+          "Keep your password secure",
+          "Notify us of any unauthorized use",
+          "Comply with all applicable laws"
+        ]
+      },
+      {
+        "title": "4. Prohibited Conduct",
+        "content": [
+          "You agree not to:"
+        ],
+        "list": [
+          "Harass, abuse, or harm other users",
+          "Create fake or misleading profiles",
+          "Use the service for commercial purposes",
+          "Spam or send unsolicited messages",
+          "Violate any laws or regulations",
+          "Attempt to hack or disrupt the service"
+        ]
+      },
+      {
+        "title": "5. Content",
+        "content": [
+          "You retain ownership of your content, but grant us a license to use, display, and distribute it as part of our services."
+        ]
+      },
+      {
+        "title": "6. Termination",
+        "content": [
+          "We reserve the right to suspend or terminate your account for violations of these terms or for any other reason."
+        ]
+      },
+      {
+        "title": "7. Disclaimer",
+        "content": [
+          "Pizoo is provided 'as is' without warranties of any kind. We do not guarantee that you will find a match or that the service will be uninterrupted."
+        ]
+      },
+      {
+        "title": "8. Limitation of Liability",
+        "content": [
+          "We are not liable for any indirect, incidental, or consequential damages arising from your use of Pizoo."
+        ]
+      }
+    ],
+    "contact": {
+      "title": "Legal Questions?",
+      "description": "For legal inquiries, please contact us at:"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Get in Touch",
+      "subtitle": "We'd love to hear from you"
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": {
+        "title": "Email"
+      },
+      "phone": {
+        "title": "Phone"
+      },
+      "address": {
+        "title": "Address",
+        "line1": "Bahnhofstrasse 123",
+        "line2": "8001 Zürich, Switzerland"
+      }
+    },
+    "social": {
+      "title": "Follow Us"
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "name": "Your Name",
+      "email": "Your Email",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "success": "Message sent successfully! We'll get back to you soon."
+    }
+  },
+  "faq": {
+    "hero": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Find answers to common questions"
+    },
+    "search": {
+      "placeholder": "Search for answers...",
+      "noResults": "No results found. Try different keywords or contact us."
+    },
+    "categories": [
+      {
+        "title": "Getting Started",
+        "questions": [
+          {
+            "question": "How do I create an account?",
+            "answer": "Download the Pizoo app from the App Store or Google Play, then follow the simple registration process. You'll need to provide basic information and add a few photos."
+          },
+          {
+            "question": "Is Pizoo free to use?",
+            "answer": "Yes! Pizoo offers a free tier with basic features. We also offer premium subscriptions with additional features like unlimited likes and advanced filters."
+          },
+          {
+            "question": "What makes Pizoo different from other dating apps?",
+            "answer": "Pizoo uses advanced AI technology to provide better matches based on compatibility, not just appearance. We also prioritize safety and authenticity."
+          }
+        ]
+      },
+      {
+        "title": "Account & Profile",
+        "questions": [
+          {
+            "question": "How do I edit my profile?",
+            "answer": "Go to your profile, tap the edit icon, and update your information. Don't forget to save your changes!"
+          },
+          {
+            "question": "Can I delete my account?",
+            "answer": "Yes, you can delete your account at any time from Settings > Account > Delete Account. Please note this action is permanent."
+          },
+          {
+            "question": "How do I verify my profile?",
+            "answer": "Profile verification is available in Settings. Take a selfie following the on-screen instructions, and we'll review it within 24 hours."
+          }
+        ]
+      },
+      {
+        "title": "Matching & Communication",
+        "questions": [
+          {
+            "question": "How does the matching algorithm work?",
+            "answer": "Our AI analyzes your preferences, interests, and behavior to find compatible matches. The more you use Pizoo, the better your matches become."
+          },
+          {
+            "question": "Can I undo a swipe?",
+            "answer": "Yes! Premium members can undo unlimited swipes. Free users get 3 rewinds per day."
+          },
+          {
+            "question": "How do I report inappropriate behavior?",
+            "answer": "Tap the three dots on any profile or message, then select 'Report'. We take all reports seriously and will take appropriate action."
+          }
+        ]
+      },
+      {
+        "title": "Safety & Privacy",
+        "questions": [
+          {
+            "question": "Is my data safe?",
+            "answer": "Absolutely. We use bank-level encryption to protect your data. Read our Privacy Policy for more details."
+          },
+          {
+            "question": "Can I block someone?",
+            "answer": "Yes, you can block any user by going to their profile and selecting 'Block'. They won't be able to see your profile or contact you."
+          },
+          {
+            "question": "How do you verify profiles?",
+            "answer": "We use photo verification, AI detection, and manual review to ensure profiles are authentic."
+          }
+        ]
+      },
+      {
+        "title": "Subscription & Billing",
+        "questions": [
+          {
+            "question": "What's included in Premium?",
+            "answer": "Premium includes unlimited likes, rewinds, advanced filters, read receipts, and more. Check our pricing page for details."
+          },
+          {
+            "question": "Can I cancel my subscription?",
+            "answer": "Yes, you can cancel anytime from your account settings or through the App Store/Google Play."
+          },
+          {
+            "question": "Do you offer refunds?",
+            "answer": "Refund policies vary by platform. Contact support@pizoo.ch for assistance with refund requests."
+          }
+        ]
+      }
+    ],
+    "contact": {
+      "title": "Still Have Questions?",
+      "description": "Can't find what you're looking for? Our support team is here to help!",
+      "cta": "Contact Support"
+    }
+  }
+}
