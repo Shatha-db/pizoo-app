@@ -6062,6 +6062,23 @@ async def download_marketing_website():
     )
 
 
+
+@api_router.get("/download/full-stack-export")
+async def download_full_stack_export():
+    """
+    Download the complete full-stack project (frontend + backend)
+    """
+    file_path = "/app/pizoo-full-stack-export.zip"
+    if not os.path.exists(file_path):
+        raise HTTPException(status_code=404, detail="File not found")
+    
+    return FileResponse(
+        path=file_path,
+        media_type="application/zip",
+        filename="pizoo-full-stack-export.zip"
+    )
+
+
 # Mount the API router
 app.include_router(api_router)
 
