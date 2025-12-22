@@ -1,23 +1,53 @@
-# 💕 Pizoo Dating App
+# Pizoo - AI-Powered Dating Platform
 
-**Modern dating application for the MENA region with AI-powered matching**
-
-[![Deploy](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/Shatha-db/pizoo)
-[![Status](https://img.shields.io/badge/status-production%20ready-brightgreen)]()
-[![License](https://img.shields.io/badge/license-private-red)]()
+<div align="center">
+  <h3>Find Meaningful Connections with AI</h3>
+  <p>A modern, full-stack dating application with advanced matching algorithms</p>
+</div>
 
 ---
 
-## 🌟 Features
+## 🌟 Overview
 
-- 🌍 **9 Languages** - Full internationalization support
-- 🎥 **Video/Voice Calls** - LiveKit integration
-- 💬 **Real-time Chat** - Instant messaging
-- 🔐 **Secure Authentication** - JWT + OAuth2
-- 🖼️ **Image Upload** - Cloudinary integration
-- 📱 **Progressive Web App** - Mobile-first design
-- 🌙 **RTL Support** - Arabic language optimized
-- 🔒 **GDPR Compliant** - Privacy-first approach
+Pizoo is a comprehensive dating platform that combines cutting-edge AI technology with intuitive design to help people find meaningful connections. Built with modern web technologies, it offers a seamless experience across devices.
+
+### Key Features
+
+- 🤖 **AI-Powered Matching** - Smart algorithm that learns your preferences
+- 💬 **Real-Time Messaging** - Instant chat with WebSocket support
+- 📹 **Video & Voice Calls** - Built-in LiveKit integration
+- 🌍 **Multi-Language** - Support for 9 languages with RTL support
+- 📱 **Responsive Design** - Works perfectly on all devices
+- 🔒 **Secure & Private** - End-to-end encryption and privacy controls
+- ⭐ **Premium Features** - Advanced filters and unlimited likes
+- 📍 **Location-Based** - Find matches near you
+
+---
+
+## 📂 Project Structure
+
+```
+pizoo-app/
+├── backend/              # FastAPI backend
+│   ├── server.py        # Main application
+│   ├── requirements.txt # Python dependencies
+│   └── services/        # Auth, Images, SMS, LiveKit
+│
+├── frontend/            # React frontend
+│   ├── src/
+│   │   ├── pages/      # Application pages
+│   │   ├── components/ # Reusable components
+│   │   ├── hooks/      # Custom React hooks
+│   │   └── utils/      # Utility functions
+│   ├── public/
+│   └── package.json
+│
+├── marketing-website/   # Marketing landing page
+│   ├── src/
+│   └── public/
+│
+└── README.md           # This file
+```
 
 ---
 
@@ -25,112 +55,133 @@
 
 ### Prerequisites
 
-- Node.js 18+ and Yarn
-- Python 3.11+
-- MongoDB 5.0+
+- **Node.js** 18+ and Yarn
+- **Python** 3.9+
+- **MongoDB** 5.0+
 
-### Installation
+### Backend Setup
 
 ```bash
-# Clone repository
-git clone https://github.com/Shatha-db/pizoo.git
-cd pizoo
+cd backend
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+cp .env.example .env
+# Edit .env with your credentials
+uvicorn server:app --reload --host 0.0.0.0 --port 8001
+```
 
-# Install frontend
+### Frontend Setup
+
+```bash
 cd frontend
 yarn install
-
-# Install backend
-cd ../backend
-pip install -r requirements.txt
+cp .env.example .env
+# Edit .env with backend URL
+yarn start
 ```
 
-### Configuration
+---
 
-Create `.env` files:
+## 🔧 Tech Stack
 
-**Backend (`backend/.env`):**
+### Frontend
+- **Framework:** React 18
+- **Routing:** React Router v7
+- **Styling:** Tailwind CSS + shadcn/ui
+- **State Management:** Context API
+- **Internationalization:** i18next
+- **Real-time:** Socket.io client
+- **Video Calls:** LiveKit React SDK
+
+### Backend
+- **Framework:** FastAPI (Python)
+- **Database:** MongoDB
+- **Authentication:** JWT (JSON Web Tokens)
+- **Image Storage:** Cloudinary
+- **Video/Voice:** LiveKit
+- **SMS/OTP:** Telnyx / Twilio
+- **Real-time:** WebSocket
+
+---
+
+## 🌍 Supported Languages
+
+- English (en)
+- Arabic (ar) - with RTL support
+- German (de)
+- French (fr)
+- Spanish (es)
+- Italian (it)
+- Portuguese (pt-BR)
+- Russian (ru)
+- Turkish (tr)
+
+---
+
+## 🔐 Environment Variables
+
+### Backend (.env)
+
 ```env
+# Database
 MONGO_URL=mongodb://localhost:27017/pizoo
-JWT_SECRET=your_secret_key
-LIVEKIT_URL=wss://your-project.livekit.cloud
-LIVEKIT_API_KEY=your_api_key
-LIVEKIT_API_SECRET=your_api_secret
-CLOUDINARY_URL=cloudinary://key:secret@cloud_name
+
+# JWT
+JWT_SECRET_KEY=your-secret-key
+JWT_ALGORITHM=HS256
+
+# Cloudinary (Images)
+CLOUDINARY_URL=cloudinary://api_key:api_secret@cloud_name
+
+# LiveKit (Video/Voice)
+LIVEKIT_API_KEY=your-key
+LIVEKIT_API_SECRET=your-secret
+LIVEKIT_URL=wss://your-instance.livekit.cloud
+
+# SMS Service (Telnyx or Twilio)
+TELNYX_API_KEY=your-key
+# OR
+TWILIO_ACCOUNT_SID=your-sid
+TWILIO_AUTH_TOKEN=your-token
 ```
 
-**Frontend (`frontend/.env`):**
+### Frontend (.env)
+
 ```env
 REACT_APP_BACKEND_URL=http://localhost:8001
 ```
 
-### Run Development
-
-```bash
-# Start backend
-cd backend
-python server.py
-
-# Start frontend (new terminal)
-cd frontend
-yarn start
-```
-
-Visit http://localhost:3000
-
 ---
 
-## 📚 Documentation
+## 📱 Features Breakdown
 
-- **[Complete Setup Guide](PIZOO_PROJECT_README.md)** - Full project documentation
-- **[Deployment Guide](DEPLOYMENT_GUIDE.md)** - Production deployment
-- **[Vercel Setup](VERCEL_SETUP.md)** - Frontend deployment
-- **[API Documentation](AUTH_API_DOCUMENTATION.md)** - API reference
+### Core Features
+- ✅ User registration and authentication
+- ✅ Profile creation with photo upload
+- ✅ Swipe-based discovery
+- ✅ Advanced matching algorithm
+- ✅ Real-time chat messaging
+- ✅ Video and voice calls
+- ✅ Location-based search
+- ✅ Likes and matches system
+- ✅ User blocking and reporting
+- ✅ Profile verification
 
----
+### Premium Features
+- 💎 Unlimited likes
+- 💎 See who liked you
+- 💎 Advanced filters (age, distance, interests)
+- 💎 Read receipts
+- 💎 Rewind last swipe
+- 💎 Boost profile visibility
 
-## 🛠️ Tech Stack
-
-### Frontend
-- React 18
-- Tailwind CSS
-- shadcn/ui
-- React Router v6
-- react-i18next
-- LiveKit React
-
-### Backend
-- FastAPI (Python)
-- MongoDB
-- JWT Authentication
-- LiveKit
-- Cloudinary
-- SendGrid/Mailjet
-
-### DevOps
-- Vercel (Frontend)
-- Supervisor (Backend)
-- GitHub Actions (CI/CD)
-
----
-
-## 📁 Project Structure
-
-```
-/app/
-├── frontend/           # React application
-│   ├── public/        # Static assets
-│   ├── src/           # Source code
-│   └── package.json   # Dependencies
-│
-├── backend/           # FastAPI application
-│   ├── server.py      # Main API
-│   ├── auth_service.py
-│   └── requirements.txt
-│
-├── docs/              # Documentation
-└── vercel.json        # Deployment config
-```
+### Safety Features
+- 🛡️ Photo verification
+- 🛡️ Report and block users
+- 🛡️ Privacy controls
+- 🛡️ Safety tips and guidelines
+- 🛡️ AI-powered content moderation
 
 ---
 
@@ -139,43 +190,43 @@ Visit http://localhost:3000
 ### Frontend (Vercel)
 
 ```bash
-# Using Vercel CLI
+cd frontend
 vercel --prod
-
-# Or connect GitHub repo to Vercel
 ```
 
-**Environment Variables:**
-- `REACT_APP_BACKEND_URL`
-- `REACT_APP_SENTRY_DSN`
+### Backend (Render / Railway / DigitalOcean)
 
-### Backend (Emergent/Railway/Render)
+**Using Render:**
+1. Create new Web Service
+2. Connect repository
+3. Build: `pip install -r requirements.txt`
+4. Start: `uvicorn server:app --host 0.0.0.0 --port $PORT`
+5. Add environment variables
 
-```bash
-# Using supervisor
-sudo supervisorctl restart backend
-
-# Or deploy to Railway/Render
+**Using Docker:**
+```dockerfile
+FROM python:3.9-slim
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+COPY . .
+CMD ["uvicorn", "server:app", "--host", "0.0.0.0"]
 ```
-
-**Environment Variables:**
-- All backend `.env` variables
 
 ---
 
 ## 🧪 Testing
 
+### Backend
 ```bash
-# Backend tests
 cd backend
-python -m pytest
+pytest
+```
 
-# Frontend tests
+### Frontend
+```bash
 cd frontend
 yarn test
-
-# E2E tests
-yarn test:e2e
 ```
 
 ---
@@ -184,74 +235,75 @@ yarn test:e2e
 
 ### Collections
 
-- **users** - User profiles and authentication
-- **matches** - Match relationships
-- **messages** - Chat messages
-- **images** - Uploaded media
-- **notifications** - User notifications
-- **subscriptions** - Premium plans
-- **sessions** - Active sessions
-- **call_logs** - Video/voice call history
+**users:**
+- Basic user information
+- Authentication credentials
+- Profile settings
 
-Run database setup:
-```bash
-python backend/organize_mongodb.py
-```
+**profiles:**
+- Display information
+- Photos and media
+- Interests and bio
+
+**matches:**
+- Mutual likes
+- Match timestamp
+
+**messages:**
+- Chat messages
+- Media attachments
+- Read status
+
+**swipes:**
+- User interactions
+- Like/pass history
 
 ---
 
-## 🔐 Security
+## 🔒 Security
 
-- JWT token-based authentication
+- JWT-based authentication
 - Password hashing with bcrypt
-- CORS protection
 - Rate limiting
-- CSRF protection
-- XSS prevention
-- SQL injection protection (MongoDB)
+- CORS configuration
+- Input validation
+- XSS protection
+- HTTPS enforcement
+- Secure cookie handling
 
 ---
 
-## 🌍 Internationalization
+## 🤝 Contributing
 
-Supported languages:
-- English (en)
-- Arabic (ar) - RTL
-- French (fr)
-- German (de)
-- Spanish (es)
-- Italian (it)
-- Turkish (tr)
-- Portuguese (pt)
-- Hindi (hi)
-
-Translation files: `frontend/public/locales/`
-
----
-
-## 📞 Support
-
-- **Website:** https://pizoo.ch
-- **Email:** support@pizoo.ch
-- **GitHub Issues:** [Create an issue](https://github.com/Shatha-db/pizoo/issues)
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
 ## 📄 License
 
-Private - All rights reserved © 2024 Pizoo
+Proprietary - All rights reserved © 2025 Pizoo
+
+---
+
+## 📞 Support
+
+- **Email:** hello@pizoo.ch
+- **Website:** https://pizoo.ch
 
 ---
 
 ## 🙏 Acknowledgments
 
-- Built with ❤️ by the Pizoo team
-- Powered by Emergent AI Platform
-- Icons by Lucide React
-- UI components by shadcn/ui
+- React Team
+- FastAPI Team
+- shadcn/ui
+- LiveKit
+- Cloudinary
+- MongoDB
 
 ---
 
-**Version:** 2.0  
-**Status:** ✅ Production Ready  
-**Last Updated:** November 2024
+<div align="center">
+  <p>Made with ❤️ by the Pizoo Team</p>
+  <p>Helping people find meaningful connections</p>
+</div>
