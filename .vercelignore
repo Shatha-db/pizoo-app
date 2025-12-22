@@ -1,7 +1,0 @@
-backend/
-marketing-website/build/
-frontend/node_modules/
-marketing-website/node_modules/
-*.log
-.env
-.env.local
