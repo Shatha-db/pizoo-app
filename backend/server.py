@@ -6079,6 +6079,23 @@ async def download_full_stack_export():
     )
 
 
+@api_router.get("/download/mongodb-sample-data")
+async def download_mongodb_sample_data():
+    """
+    Download MongoDB sample data (50 users, profiles, likes, matches, messages)
+    """
+    file_path = "/app/pizoo-mongodb-data.zip"
+    if not os.path.exists(file_path):
+        raise HTTPException(status_code=404, detail="File not found")
+    
+    return FileResponse(
+        path=file_path,
+        media_type="application/zip",
+        filename="pizoo-mongodb-data.zip"
+    )
+
+
+
 # Mount the API router
 app.include_router(api_router)
 
